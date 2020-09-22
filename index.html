@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Calculadora</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <h1>Super Calculadora</h1>
+
+    <form id="formNumbers">
+        <div>
+            <span>Primeiro número (A):</span>
+            <label>
+                <input id="numberA" class="number" type="number">
+            </label>
+        </div>
+
+        <div>
+            <span>Segundo número (B):</span>
+            <label>
+                <input id="numberB" class="number" type="number">
+            </label>
+        </div>
+    </form>
+
+    <h4>Cálculos</h4>
+
+    <form id="resultCalcs">
+        <div class="line">
+            <div>
+                <span>Soma (a + b)</span>
+                <label>
+                    <input id="sum" readonly="true" type="text">
+                </label>
+            </div>
+            <div>
+                <span>Subtração 1 (a - b):</span>
+                <label>
+                    <input id="subtraction1" readonly="true" type="text">
+                </label>
+            </div>
+            <div>
+                <span>Subtração 2 (b - a):</span>
+                <label>
+                    <input id="subtraction2" readonly="true" type="text">
+                </label>
+            </div>
+        </div>
+
+        <div class="line">
+            <div>
+                <span>Multiplicação (a x b):</span>
+                <label>
+                    <input id="multiplication" readonly="true" type="text">
+                </label>
+            </div>
+            <div>
+                <span>Divisão 1 (a / b):</span>
+                <label>
+                    <input id="division1" readonly="true" type="text">
+                </label>
+            </div>
+            <div>
+                <span>Divisão 2 (b / a):</span>
+                <label>
+                    <input id="division2" readonly="true" type="text">
+                </label>
+            </div>
+        </div>
+        <div class="line">
+            <div>
+                <span>Quadrado de a (a²):</span>
+                <label>
+                    <input id="squareA" readonly="true" type="text">
+                </label>
+            </div>
+            <div>
+                <span>Quadrado de b (b²):</span>
+                <label>
+                    <input id="squareB" readonly="true" type="text">
+                </label>
+            </div>
+            <div>
+                <span>Divisores inteiros de a:</span>
+                <label>
+                    <input id="dividersA" readonly="true" type="text">
+                </label>
+            </div>
+        </div>
+        <div class="line">
+            <div>
+                <span>Divisores inteiros de b:</span>
+                <label>
+                    <input id="dividersB" readonly="true" type="text">
+                </label>
+            </div>
+            <div>
+                <span>Fatorial de a (a!):</span>
+                <label>
+                    <input id="factorialA" readonly="true" type="text">
+                </label>
+            </div>
+            <div>
+                <span>Fatorial de b (b²):</span>
+                <label>
+                    <input id="factorialB" readonly="true" type="text">
+                </label>
+            </div>
+        </div>
+    </form>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
